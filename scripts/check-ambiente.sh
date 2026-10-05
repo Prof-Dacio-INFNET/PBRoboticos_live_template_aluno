@@ -2,7 +2,7 @@
 # check-ambiente.sh — confere se seu ambiente está pronto para a disciplina.
 # Rode DENTRO do WSL (Ubuntu). NÃO altera nada, só verifica.
 # Uso rápido (sem clonar):
-#   curl -sSL https://raw.githubusercontent.com/Prof-Dacio-INFNET/PBRoboticos_prof_dacio/main/recursos/check-ambiente.sh | bash
+#   curl -sSL https://raw.githubusercontent.com/Prof-Dacio-INFNET/PBRoboticos_live_prof_dacio/main/recursos/check-ambiente.sh | bash
 ok(){ printf "  \033[32m✓\033[0m %s\n" "$1"; }
 no(){ printf "  \033[31m✗\033[0m %s\n" "$1"; FAIL=1; }
 inf(){ printf "  · %s\n" "$1"; }

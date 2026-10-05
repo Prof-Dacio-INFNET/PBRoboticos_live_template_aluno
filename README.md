@@ -5,8 +5,8 @@
 # ═══════════════════════════════════════════════════════════════════════
 aluno: "SEU NOME COMPLETO"
 github: "seu-usuario"
-disciplina: "PB Sistemas Robóticos 2026.2"
-turma: "GRPEDCR3C1-M1-P1"
+disciplina: "PB Sistemas Robóticos — turma live 26T4/27T1"
+turma: "GRLEDCR3C2-N2-L1"
 projeto: "Título do seu projeto"
 entregas:
   tp1:   { entregue: false, branch: "entrega-tp1",   tag: "tp1",   video: "", data: "" }
@@ -18,11 +18,11 @@ entregas:
 ---
 # Projeto de Bloco: Sistemas Robóticos — <!-- PB:ALUNO -->Seu Nome Aqui<!-- /PB:ALUNO -->
 
-> ⚠️ **Entrega oficial = MOODLE** (ZIP de códigos + PDF + links). **A entrega no GitHub é COMPLEMENTAR e obrigatória** — não é opcional nem mero apoio: o professor corrige o código no estado da sua **branch/tag de entrega**, e a qualidade do repositório é critério de avaliação. Moodle **e** GitHub, sempre os dois. Repositório criado pelo GitHub Classroom.
+> ⚠️ **Entrega oficial = MOODLE** (ZIP de códigos + PDF + links). **A entrega no GitHub é COMPLEMENTAR e obrigatória** — não é opcional nem mero apoio: o professor corrige o código no estado da sua **branch/tag de entrega**, e a qualidade do repositório é critério de avaliação. Moodle **e** GitHub, sempre os dois. Este repositório foi criado pelo professor a partir do template da disciplina e você é colaborador dele (privado: só você e o professor).
 
 ## 🚀 Comece por aqui (primeiros passos, em ordem)
 
-> Faça uma vez, na sequência. Os tutoriais completos estão em [`tutoriais/`](tutoriais/) (e nas versões vivas do [repo de material](https://github.com/Prof-Dacio-INFNET/PBRoboticos_prof_dacio/tree/main/tutoriais)). Você pode ler este README pelo site do GitHub antes de clonar.
+> Faça uma vez, na sequência. Os tutoriais completos estão em [`tutoriais/`](tutoriais/) (e nas versões vivas do [repo de material](https://github.com/Prof-Dacio-INFNET/PBRoboticos_live_prof_dacio/tree/main/tutoriais)). Você pode ler este README pelo site do GitHub antes de clonar.
 
 1. **Configurar o WSL2 + Ubuntu 22.04** — siga [`tutoriais/setup-ros2-humble-wsl2.md`](tutoriais/setup-ros2-humble-wsl2.md), **Passos 1 e 2** (incluindo a conferência da versão `jammy`).
 
@@ -37,8 +37,8 @@ entregas:
 3. **Clonar este repositório DENTRO do WSL** (na sua home `~`, **nunca** em `/mnt/c`):
    ```bash
    cd ~
-   gh repo clone Prof-Dacio-INFNET/projeto-pb-SEU-USUARIO
-   cd projeto-pb-SEU-USUARIO
+   gh repo clone Prof-Dacio-INFNET/pb-live-SEU-USUARIO
+   cd pb-live-SEU-USUARIO
    ```
 
 4. **Criar as branches do projeto** (uma vez só):
@@ -55,11 +55,13 @@ entregas:
 
 8. **Dia a dia e entregas** — [`consulta/git-cheatsheet.md`](consulta/git-cheatsheet.md) (fluxo dev→main→entrega) e [`consulta/regras-entrega.md`](consulta/regras-entrega.md). Dúvidas: Infnet.Online.
 
+9. **Evidência da semana 1** — depois dos passos 1–6, rode `bash scripts/check-ambiente.sh > docs/evidencias/semana01-ambiente.txt`, faça commit e push na `dev` (ver a tarefa da semana 1 no site do material).
+
 ---
 
 ## Identificação
 - **Nome:** <!-- PB:ALUNO --> _(preencha também no front-matter acima)_
-- **Usuário GitHub:** · **Disciplina:** PB Sistemas Robóticos (GRPEDCR3C1-M1-P1)
+- **Usuário GitHub:** · **Disciplina:** PB Sistemas Robóticos — turma live (GRLEDCR3C2-N2-L1)
 
 ## Sobre o projeto
 _Título e descrição curta (2–3 frases). Proposta e planejamento completos: [PROJETO.md](PROJETO.md)._
@@ -91,5 +93,5 @@ O professor corrige **executando** num clone limpo — mantenha isto funcionando
 `scripts/` (setup, reproduzir, init-branches) · [`ARTEFATOS.md`](ARTEFATOS.md) (links de vídeos/artefatos) · `ros2_ws/src/` (pacotes) · `docs/` (relatórios, evidências, diário, decisões) · `media/` · `consulta/` (cheatsheets) · `tutoriais/` (guias essenciais offline) · `exemplos/` (código-base para adaptar).
 
 ## Referências da disciplina
-- Material, tutoriais, exemplos e cheatsheets vivos: [PBRoboticos_prof_dacio](https://github.com/Prof-Dacio-INFNET/PBRoboticos_prof_dacio)
+- Material, tutoriais, exemplos e cheatsheets vivos: [PBRoboticos_live_prof_dacio](https://github.com/Prof-Dacio-INFNET/PBRoboticos_live_prof_dacio)
 - Regras e prazos oficiais: **Moodle** (resumo em [consulta/regras-entrega.md](consulta/regras-entrega.md))

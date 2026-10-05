@@ -1,6 +1,6 @@
 # Índice de consulta — PB Sistemas Robóticos
 
-Referências rápidas da disciplina. **⭐ = core** (essencial desde o início; também no template do seu repo). Os demais são referência por ferramenta, usados quando cada etapa/TP chegar. **Versões vivas e mais completas:** repo público [PBRoboticos_prof_dacio/cheatsheets](https://github.com/Prof-Dacio-INFNET/PBRoboticos_prof_dacio).
+Referências rápidas da disciplina. **⭐ = core** (essencial desde o início; também no template do seu repo). Os demais são referência por ferramenta, usados quando cada etapa/TP chegar. **Versões vivas e mais completas:** repo público [PBRoboticos_live_prof_dacio/cheatsheets](https://github.com/Prof-Dacio-INFNET/PBRoboticos_live_prof_dacio).
 
 | Arquivo | Tema | |
 |---|---|---|

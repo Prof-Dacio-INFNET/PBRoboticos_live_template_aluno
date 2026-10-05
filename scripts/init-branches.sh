@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # init-branches.sh — cria as branches do projeto (rode UMA vez, após o clone).
-# O GitHub Classroom só copia a 'main'; este script cria as demais no seu repo.
+# O repositório é criado a partir do template só com a 'main'; este script cria as demais no seu repo.
 set -e
 git checkout main 2>/dev/null || git checkout -b main
 echo "Criando branches de trabalho e de entrega..."

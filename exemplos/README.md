@@ -10,4 +10,4 @@ cd ros2_ws && colcon build && source install/setup.bash
 ros2 launch pacote_minimo exemplo.launch.py
 ```
 
-Mais exemplos (por TP): repositório público de material da disciplina — [PBRoboticos_prof_dacio](https://github.com/Prof-Dacio-INFNET/PBRoboticos_prof_dacio).
+Mais exemplos (por TP): repositório público de material da disciplina — [PBRoboticos_live_prof_dacio](https://github.com/Prof-Dacio-INFNET/PBRoboticos_live_prof_dacio).
